@@ -1,0 +1,235 @@
+* {
+    padding: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.head {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    height: 70px;
+    background-color: red;
+    color: white;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.head button {
+    height: 40px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: red;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.head .red {
+    background-color: red;
+    color: white;
+    width: 24%;
+}
+
+.head hr {
+    width: 0px;
+    height: 50px;
+}
+
+.head .left,
+.head .right {
+    width: 55%;
+    padding: 0% 2%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.head .left {
+    width: 40%;
+}
+
+header {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    height: 70px;
+    position: sticky;
+    top: 65px;
+    background-color: #c4c4c4;
+    z-index: 1;
+    align-items: center;
+    gap: 30px;
+}
+
+.icons {
+    margin-right: 50%;
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    height: 80px;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon img {
+    width: 50px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.category {
+    padding: 0px 40px;
+    width: 400px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.search {
+    display: flex;
+}
+
+.search input {
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    border: 1px solid #c4c4c4;
+}
+
+.search .red {
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    background-color: red;
+}
+
+.swiper {
+    z-index: 0;
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}
+
+.swiper-slide {
+    z-index: 0;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    padding: 5% 0%;
+    z-index: 0;
+    margin: 20px auto;
+    top: 100%;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    gap: 20px;
+}
+
+.container .left {
+    width: 70%;
+    z-index: 0;
+}
+
+.container .right {
+    width: 30%;
+    height: 560px;
+    z-index: 0;
+}
+
+.swiper-slide {
+    background-repeat: no-repeat;
+}
+
+.swiper-slide:nth-child(1) {
+    background-image: url(./img/back1.jpg);
+    object-fit: contain;
+    height: 100%;
+}
+
+.swiper-slide:nth-child(2) {
+    background-image: url(./img/back2.png);
+}
+
+.swiper-slide:nth-child(3) {
+    background-image: url(./img/back3.png);
+}
+
+.swiper-slide:nth-child(4) {
+    background-image: url(./img/back4.png);
+}
+
+.container .right .swiper-slide {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-image: none;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .right img {
+    width: 500px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.container .right button {
+    padding: 10px 20px;
+    background-color: yellow;
+    border-radius: 15px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 0px 10px;
+}
